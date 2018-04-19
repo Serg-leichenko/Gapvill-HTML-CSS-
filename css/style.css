@@ -1,0 +1,188 @@
+body {
+	font-family: Tahoma, Myriad Pro, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background: url(images/first-bg.jpg) no-repeat center top/cover;
+	height: 940px;
+}
+
+.call {
+	padding: 60px 0 0 60px;	
+}
+
+.phone {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.phone li {
+	display: block;	
+	line-height: 2.3em;
+}
+
+.phone a {
+	color: #fff;
+	font-weight: 500;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.brand {
+	display: block;
+	margin: 30px 0 0 90px;
+}
+
+.open {
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+	margin: 70px 0 0 200px;
+	cursor: pointer;
+}
+
+.nursery {
+	display: block;
+	text-align: center;
+	margin-top: 95px;
+}
+
+.nursery__intro {
+	font-size: 60px;
+	color: #fff;
+	margin-bottom: -30px;
+}
+
+.nursery__title {
+	font-size: 60px;
+	font-weight: 900;
+	color: #fff;
+}
+
+.puppies {
+	width: 330px;
+	height: 255px;
+	background: #fff;
+	border: 0;
+	border-radius: 7px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.8);
+	margin: 370px 0 100px 0;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.name {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.navigation {
+	width: 555px;
+	background: #fff;
+	margin-top: 30px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.8)
+}
+
+.close {
+	position: absolute;
+	top: 180px;
+	left: -40px;
+	cursor: pointer;
+}
+
+.menu_1, .menu_2, .social_icon {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.menu_1 li, .menu_2 li, .social_icon li {
+	display: block;
+	list-style: none;
+}
+
+.menu_1 {
+	padding-top: 70px;
+}
+
+.menu_1 li:last-child {
+	margin-bottom: 50px;
+}
+
+.menu_1 a {
+	font-size: 30px;
+	font-weight: 900;
+	color: #000;
+	line-height: 1.6em;
+	margin-left: 90px;
+	text-decoration: none;
+}
+
+.menu_1 a:hover {
+	color: #c2aa65;
+}
+
+.menu_2 {
+	border-top: 1px solid #666;
+	width: 310px;
+	padding-top: 50px;
+	display: block;
+	margin-left: 90px;
+}
+
+.menu_2 a {
+	font-size: 24px;
+	font-weight: 300;
+	color: #666;
+	text-decoration: none;
+	line-height: 1.6em;
+}
+
+.menu_2 a:hover {
+	color: #cbcbcb;
+}
+
+.menu_2 li:last-child {
+	margin-bottom: 200px;
+}
+
+.social_icon {
+	display: flex;
+	margin-left: 90px;
+	padding-bottom: 80px;
+}
+
+.icon__tw {
+	width: 125px;
+	background: #70b8fd;
+	border-radius: 3px;
+	padding: 10px 0;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.social_icon a {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.fa-twitter, .fa-facebook {
+	font-size: 24px;
+	margin-right: 10px;
+}
+
+.icon__f {
+	width: 125px;
+	background: #475995;
+	border-radius: 3px;
+	padding: 10px 0;
+	text-align: center;
+	margin-right: 30px;
+}
